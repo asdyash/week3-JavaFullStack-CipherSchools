@@ -1,0 +1,92 @@
+class worker extends Thread{
+
+/ runisapre method. when a thread is started it //automatically looks for run method.
+
+public void run() {
+
+class worker extends Thread{
+
+public void run() {
+
+for(int i=1;i<=10;i++) {
+
+System.out.println("Thread 1 Running ...."+ new java.util.Date() );
+
+try {
+
+Thread.sleep(1000); // 1000 |
+
+} catch (InterruptedException e) {
+
+// TODO Auto-generated catch block e.printStackTrace(); }
+
+}
+
+}
+public class Testo {
+
+
+public static void main(String[] args) {
+
+worker w1 = new worker();
+
+}
+
+//program2
+
+//Creating thread using runnable Interface.
+
+class workerl implements Runnable(
+
+for(int i=1;i<20;i++) {
+
+System.out.println("Thread One is Working");
+
+try {
+
+public void run() {
+
+} catch (InterruptedException e) { // TODO Auto-generated catch block
+
+e.printStackTrace();
+
+}
+
+class worker2 implements Runnable{
+
+ public void run() {
+
+for(int i=1;i<20;i++) {
+
+System.out.println("Hello From Thread Two");
+
+try {
+
+Thread.sleep(1000);
+
+} catch (InterruptedException e) { // TODO Auto-generated catch block
+
+ public class Testi {
+
+public class Testi (
+
+Test1(){
+
+t1= new Thread(new worker1());
+
+t2 = new Thread(new worker2());
+
+t2.setPriority (10) : // Priority range is 1 to 10
+
+tl.setPriority(
+
+t1.start(); t 2.start():
+
+public static void main(String[] args) { new Test1();
+
+
+
+Thread t1, t2;
+
+}
+
