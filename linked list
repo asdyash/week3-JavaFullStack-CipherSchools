@@ -39,3 +39,103 @@ System.out.println(it.next());
 }
 
 }
+
+//program2
+public class Test2 {
+
+public static void main(String[] args) {
+
+Scanner sc = new Scanner(System.in);
+
+ArrayList myl = new ArrayList();
+
+for (int i=1;i<=5;i++) {
+
+Lng item=sc.nex ();
+
+if (myl.contains(item)){
+
+continue;
+
+} myl.add(item)|
+
+}
+
+System.out.println(myl);
+
+
+
+}}
+
+//program3
+public class Test3 {
+
+public static void main(String[] args) {
+
+// HashSet
+
+HashSet myset = new HashSet();
+
+myset.add("red");
+
+myset.add("orange");
+
+myset.add("red"); myset.add("orange");
+
+myset.add("green");
+
+System.out.println(myset);
+LinkedHashSet Uhs = new LinkedHashSet();
+
+lhs.add("green");
+
+lhs.add("red");
+
+lhs.add("orange");
+
+lhs.add("red");
+
+lhs.add("orange");
+
+System.out.println(lhs);
+TreeSet ts = new TreeSet();
+
+// treeset doesn't allows nulls" // treeset sorts the data in ascending order
+
+ts.add("Cat");
+
+ts .add("Apple^ prime prime ) ;
+
+ts.add("Ball");
+
+System.out.println(ts);
+
+}
+
+}
+//program4
+import java.util.HashMap; import java.util.Map;
+
+public class Test4 {
+
+public static void main(String[] args) {
+
+HashMap<String, String> states = new HashMap<String, String>();
+
+//put() method
+
+states.put("Tx", "Texas"); states.put("Al", "Alabama");
+
+states.put("Ar", "Arizona");
+
+states.put("Ca", "California");
+
+System.out.println(states);
+
+for(Map.Entry<String, String>e: states.entrySet()) {
+
+System.out.println(e.getKey()+" --- "+e.getValue());
+
+}
+
+}
